@@ -32,19 +32,19 @@ python --version   # Debe ser 3.8 o superior
 pip --version      # Gestor de paquetes de Python
 ````
 
-1️⃣ Clonar y configurar entorno
-# Clonar el repositorio
+##1️⃣ Clonar y configurar entorno
+### Clonar el repositorio
 git clone <tu-repositorio>
 cd <directorio-del-proyecto>
 
-# Crear entorno virtual (opcional pero recomendado)
+### Crear entorno virtual (opcional pero recomendado)
 python -m venv venv
 
-# Activar entorno virtual
+### Activar entorno virtual
 source venv/bin/activate    # Linux/Mac
-# venv\Scripts\activate     # Windows
+### venv\Scripts\activate     # Windows
 
-# Instalar dependencias
+### Instalar dependencias
 pip install django tensorflow numpy
 
 
